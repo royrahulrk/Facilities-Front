@@ -1,0 +1,90 @@
+body{
+  background: url(./Component/paddle-tennis-field-with-balls-basket.jpg);
+  background-size: cover;
+}
+.nav-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2f3636;
+}
+.booking-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  
+}
+
+.booking-form .form-group {
+  margin-bottom: 20px;
+}
+
+.booking-form label {
+  font-weight: bold;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="date"],
+.booking-form input[type="time"],
+.booking-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.booking-form input[type="text"]:focus,
+.booking-form input[type="date"]:focus,
+.booking-form input[type="time"]:focus,
+.booking-form select:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.booking-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.booking-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.message-card{
+  width: 300px;
+  width: 300px;
+    z-index: 99999;
+    position: fixed;
+    top: 20rem;
+}
+
+.btn1{
+  width: 100px;
+    /* margin: 8px 15px 5px 75px; */
+    margin-top: 1rem;
+    border: 2px solid dodgerblue;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 6px;
+    color: white;
+}
